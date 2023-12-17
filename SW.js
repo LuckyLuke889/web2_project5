@@ -9,7 +9,6 @@ const assets = [
   "/images/Bon-Jovi-Brasao-logo-vector.png",
   "/images/Guns-N-Roses-logo.png",
   "/images/Nirvana-logo.png",
-  "/images/sweetHomeAlabama.png",
   "/images/ac-dc-logo-vector-01.png",
   "/images/ac-dc-logo-vector-01.png"
 ];
