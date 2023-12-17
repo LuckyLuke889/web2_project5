@@ -45,12 +45,14 @@ self.addEventListener("fetch", (event) => {
 });
 
 self.addEventListener("sync", (event) => {
+  console.log(event)
   if (event.tag === "sync") {
     event.waitUntil(pushNotify());
   }
 });
 
 self.addEventListener("sync", (event) => {
+  console.log(event)
   if (event.tag === "sync-two") {
     event.waitUntil(pushNotifyTwo());
   }
